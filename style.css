@@ -221,7 +221,7 @@ span {
 }
 .project-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 30rem), 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 35rem), 1fr));
     gap: 2rem;
 }
 .project-container .project-box {
@@ -231,7 +231,6 @@ span {
     overflow: hidden;
     text-align: center;
     transition: .5s ease;
-    /* padding removed, flex: 1 removed */
 }
 .project-box img {
     /* display: block; */
